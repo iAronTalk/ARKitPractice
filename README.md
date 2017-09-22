@@ -3,7 +3,7 @@
 ## ARKit 简介
 增强现实技术（Augmented Reality，简称 AR），是一种实时地计算摄影机影像的位置及角度并加上相应图像、视频、3D模型的技术，这种技术的目标是在屏幕上把虚拟世界套在现实世界并进行互动。
 >* ARKit框架提供了三种AR技术，分别基于三3D场景的**SceneKit**和**Metal2**，以及基于2D场景的**SpriktKit**。
-* 开发环境关键词：A9 和 iOS 11。
+>* 开发环境关键词：A9 和 iOS 11。
 
 ## ARKit的工作原理
 简单说，ARKit就是摄像头拍摄的**2D世界转化成3D世界**，并加入**虚拟的3D模型**。并由SceneKit（或者其他两种框架）呈现出来(本文以SceneKit为例)。
@@ -118,5 +118,5 @@ ARKit also automatically adds anchors when you enable the planeDetection option 
 >[ARKit 开发系列](https://zhuanlan.zhihu.com/p/27345673)
 
 
-[AR结构图]: /resources/结构图.jpeg "ARKit类关系图"
-[SK结构图]: /resources/SceneKit结构图.jpeg "SceneKit类关系图"
+[AR结构图]: resources/结构图.jpeg "ARKit类关系图"
+[SK结构图]: resources/SceneKit结构图.jpeg "SceneKit类关系图"
